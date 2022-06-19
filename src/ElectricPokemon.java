@@ -57,11 +57,6 @@ public class ElectricPokemon extends Pokemon {
     }
 
     @Override
-    public void printType() {
-        super.printType();
-    }
-
-    @Override
     public void sound() {
         System.out.println("I make an " + this.getSound() + " sound.");
     }
